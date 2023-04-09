@@ -1,10 +1,10 @@
 import { NextPage } from "next";
 
 const CV: NextPage = () => {
-    return(
-        <article className="prose lg:prose-xl">
-            <h1>What is the Q?</h1>
-        </article>
+    return (
+      <>
+        <h1 className="text-center font-bold text-4xl">Work in Progress: Come back later!</h1>
+      </>
     );
 };
 
