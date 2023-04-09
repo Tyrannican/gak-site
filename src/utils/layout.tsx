@@ -10,7 +10,7 @@ const NavBanner = () => {
             </Link>
         </div>
         <div className="flex text-2xl justify-end w-1/2 p-3">
-            <Link href="/cv">
+            <Link href="/cv.pdf" target="_blank">
                 <div className="font-bold">CV</div>
             </Link>
         </div>
