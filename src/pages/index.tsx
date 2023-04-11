@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import { renderLogo } from "../utils/logos";
 
 const SocialLink = (props: { href: string, logo: string }) => {
-    return <a target="_blank" href={props.href} rel="noopener noreferrer">
+    return <a target="_blank" href={props.href} rel="me">
         { renderLogo(props.logo) }
     </a>
 };
