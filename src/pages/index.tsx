@@ -2,9 +2,9 @@ import type { NextPage } from "next";
 import { renderLogo } from "../utils/logos";
 
 const SocialLink = (props: { href: string, logo: string }) => {
-    return <a target="_blank" href={props.href} rel="me">
-        { renderLogo(props.logo) }
-    </a>
+  return <a target="_blank" href={props.href} rel="me">
+    {renderLogo(props.logo)}
+  </a>
 };
 
 const Home: NextPage = () => {
@@ -17,7 +17,7 @@ const Home: NextPage = () => {
         software engineer from glasgow, scotland. currently working at the BBC
       </span>
       <span className="flex justify-center space-x-3">
-        <SocialLink href="https://hachyderm.io/@tyrannican" logo="mastodon" />
+        <SocialLink href="https://bsky.app/profile/ctierengineer.com" logo="bluesky" />
         <SocialLink href="https://github.com/Tyrannican" logo="github" />
         <SocialLink href="https://www.linkedin.com/in/graham-keenan-4007321b8/" logo="linkedin" />
         <SocialLink href="mailto:graham.keenan@outlook.com" logo="mail" />
